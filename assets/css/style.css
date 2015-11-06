@@ -1,0 +1,37 @@
+.social-shares{
+    position: fixed;
+    z-index: 9999;
+    top: 200px;
+    box-shadow: 2px 2px 0px #CCC;
+}
+.social-shares p{
+    margin: 0px 0px 0px 0px;
+    padding: 8px 10px;
+}
+.social-shares p > a{
+    margin: 0px;
+    color: #FFF;
+    font-size: 16px;
+    text-align: center;
+}
+
+.btn-xing,
+.btn-xing a{
+    background: #006567;
+}
+.btn-linkedin,
+.btn-linkedin a{
+    background: #1A85BC;
+}
+.btn-facebook,
+.btn-facebook a{
+    background: #4A66A0;
+}
+.btn-twitter,
+.btn-twitter a{
+    background: #0084B4;
+}
+.btn-gplus,
+.btn-gplus a{
+    background: #DD4B39;
+}
