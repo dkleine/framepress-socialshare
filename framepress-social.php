@@ -8,7 +8,7 @@
     Author URI: https://solutions.io
     */
 
-add_action( 'wp_loaded', 'framepress_socialshare' );
+add_action( 'wp_footer', 'framepress_socialshare' );
 
 function framepress_socialshare() { ?>
 <div class="social-shares hidden-xs">
