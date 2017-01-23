@@ -8,30 +8,53 @@
     margin: 0px 0px 0px 0px;
     padding: 8px 10px;
 }
-.social-shares p > a{
+.social-shares a{
     margin: 0px;
     color: #FFF;
     font-size: 16px;
     text-align: center;
+}
+.social-shares a:hover{
+    color: #F1F1F1;
 }
 
 .btn-xing,
 .btn-xing a{
     background: #006567;
 }
+.btn-xing:hover,
+.btn-xing a:hover{
+    background: rgba(0,101,103,0.6);
+}
 .btn-linkedin,
 .btn-linkedin a{
     background: #1A85BC;
+}
+.btn-linkedin:hover,
+.btn-linkedin a:hover{
+    background: rgba(26,133,188,0.6);
 }
 .btn-facebook,
 .btn-facebook a{
     background: #4A66A0;
 }
+.btn-facebook:hover,
+.btn-facebook a:hover{
+    background: rgba(74,102,160,0.6);
+}
 .btn-twitter,
 .btn-twitter a{
     background: #0084B4;
 }
+.btn-twitter:hover,
+.btn-twitter a:hover{
+    background: rgba(0,132,180,0.6);
+}
 .btn-gplus,
 .btn-gplus a{
     background: #DD4B39;
+}
+.btn-gplus:hover,
+.btn-gplus a:hover{
+    background: rgba(221,75,57,0.6);
 }
