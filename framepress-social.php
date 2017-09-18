@@ -24,7 +24,9 @@ function framepress_socialshare_style() {
     $plugin_url = plugin_dir_url( __FILE__ );
 
     wp_enqueue_style( 'framepress_socialshare_style', $plugin_url . 'assets/css/style.css' );
-    wp_enqueue_style( 'font-awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', array(), '4.7.0' );
+    if (!wp_style_is( 'fontawesome', 'enqueued' )) {
+      wp_register_style( 'fontawesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', false, '4.7.0' );
+    wp_enqueue_style( 'fontawesome' );
 }
 add_action( 'wp_enqueue_scripts', 'framepress_socialshare_style' );
 ?>
